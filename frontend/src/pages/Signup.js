@@ -31,7 +31,7 @@ const Signup = () => {
       />
 
       <div className="flex justify-center pt-2 py-1 lg:scale-100 phone:scale-90">
-        <button disabled={isLoading} className="font-montserrat mx-auto relative px-6 py-3 font-bold text-black group">
+        <button disabled={isLoading} className="font-montserrat mx-auto relative px-6 py-3 font-bold text-black group cursor-pointer">
           <span class="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-red-300 group-hover:translate-x-0 group-hover:translate-y-0"></span>
           <span class="absolute inset-0 w-full h-full border-4 border-black"></span>
           <span class="relative">Sign Up</span>
