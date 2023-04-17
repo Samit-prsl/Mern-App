@@ -30,10 +30,10 @@ const Navbar = () => {
 
           {!user && (
             <div className='flex lg:gap-5'>
-              <Link to="/login" className='font-semibold tablet:text-base phone:text-sm inline-block py-3 text-xl text-white bg-gray-700 px-3 hover:bg-gray-600 transition duration-300 rounded-md lg:scale-100 phone:scale-90'>
+              <Link to="/login" className='font-semibold tablet:text-base phone:text-sm inline-block py-3 text-xl text-white bg-basicgreen px-3 hover:bg-teal-600 transition duration-300 rounded-md lg:scale-100 phone:scale-90'>
                   Log In
               </Link>
-              <Link to="/signup" className='font-semibold tablet:text-base phone:text-sm inline-block py-3 text-xl text-white bg-gray-700 px-3 hover:bg-gray-600 transition duration-300 rounded-md lg:scale-100 phone:scale-90'>
+              <Link to="/signup" className='font-semibold tablet:text-base phone:text-sm inline-block py-3 text-xl text-white bg-gray-900 px-3 hover:bg-gray-800 transition duration-300 rounded-md lg:scale-100 phone:scale-90'>
                 Sign Up
               </Link>
             </div>

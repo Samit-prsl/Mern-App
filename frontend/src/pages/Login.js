@@ -14,7 +14,7 @@ const Login = () => {
 
   return (
     <form className="phone:w-11/12 tablet:w-1/3 mx-auto bg-white rounded-md p-5 mt-5" onSubmit={handleSubmit}>
-      <h3 className="font-semibold text-2xl flex justify-center text-teal-700 pb-5">Log In</h3>
+      <h3 className="font-semibold phone:text-2xl lg:text-3xl flex justify-center text-teal-700 pb-5">Log In</h3>
 
       <label className="font-medium text-gray-800">Email address:</label>
       <input
