@@ -48,9 +48,9 @@ const WorkoutForm = () => {
 
   return (
     <form className="phone:w-full tablet:w-1/2 lg:w-3/4 ml-auto" onSubmit={handleSubmit}>
-      <h3 className="font-semibold phone:text-lg lg:text-xl text-basicgreen py-3">Add a New Workout</h3>
+      <h3 className="font-semibold phone:text-lg lg:text-2xl text-basicgreen py-3 pb-7">Add a New Workout</h3>
 
-      <label className="font-medium text-gray-700">Excersize Title:</label>
+      <label className="font-semibold text-gray-700">Excersize Title:</label>
       <input
         type="text"
         onChange={(e) => setTitle(e.target.value)}
@@ -58,7 +58,7 @@ const WorkoutForm = () => {
         className={emptyFields.includes('title') ? 'error' : ''}
       />
 
-      <label className="font-medium text-gray-700">Load (in kg):</label>
+      <label className="font-semibold text-gray-700">Load (in kg):</label>
       <input
         type="number"
         onChange={(e) => setLoad(e.target.value)}
@@ -66,7 +66,7 @@ const WorkoutForm = () => {
         className={emptyFields.includes('load') ? 'error' : ''}
       />
 
-      <label className="font-medium text-gray-700">Reps:</label>
+      <label className="font-semibold text-gray-700">Reps:</label>
       <input
         type="number"
         onChange={(e) => setReps(e.target.value)}

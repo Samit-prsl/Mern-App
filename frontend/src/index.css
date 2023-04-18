@@ -127,3 +127,6 @@ form.signup, form.login {
   font-family: 'Montserrat';
   font-weight: 500;
 }
+.background {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
