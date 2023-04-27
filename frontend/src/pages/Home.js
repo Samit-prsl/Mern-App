@@ -13,7 +13,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchWorkouts = async () => {
-      const response = await fetch('/api/workouts', {
+      const response = await fetch('http://localhost:5000/api/workouts', {
         headers: {
           'Authorization': `Bearer ${user.token}`
         }
